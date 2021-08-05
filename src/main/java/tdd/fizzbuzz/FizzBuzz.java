@@ -1,11 +1,11 @@
 package tdd.fizzbuzz;
 
 public class FizzBuzz {
-    public String countOff(Integer number) {
+    public String countOff(int number) {
         if(number % 3 == 0)
         {
             return "Fizz";
         }
-        return Integer.toString(number);
+        return String.valueOf(number);
     }
 }

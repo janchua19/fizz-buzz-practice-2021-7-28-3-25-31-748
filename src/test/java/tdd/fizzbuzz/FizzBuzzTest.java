@@ -21,11 +21,11 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_Fizz_when_countOff_given_number_multiple_of_3(){
-        int number = 13;
+        int number = 3;
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         String result = fizzBuzz.countOff(number);
 
-        assertThat(result).isEqualTo("Fizz");
+        assert(result).equals("Fizz");
     }
 }
